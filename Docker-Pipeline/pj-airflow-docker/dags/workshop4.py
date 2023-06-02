@@ -11,7 +11,7 @@ CONVERSION_RATE_URL = "https://golink.icu/apidata"
 # path  
 mysql_output_path = "/home/airflow/data/merged_data.csv"
 api_output_path = "/home/airflow/data/api_data.csv"
-final_output_path = "/home/airflow/data/transfer_data.csv"
+final_output_path = "/home/airflow/data/transfers_data.csv"
 
 
 def get_data_from_mysql(transaction_path):
